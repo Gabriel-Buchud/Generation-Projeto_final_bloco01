@@ -1,5 +1,5 @@
 
-import { Produto } from "./produto";
+import { Produto } from "./Produto";
 
 export class ProdutoAlimento extends Produto {
 
@@ -10,7 +10,7 @@ export class ProdutoAlimento extends Produto {
     nome: string,
     preco: number,
     quantidade: number,
-    dataValidade: any ) {
+    dataValidade: string ) {
     super(id, nome, preco, quantidade);
     this._dataValidade = dataValidade;
   }

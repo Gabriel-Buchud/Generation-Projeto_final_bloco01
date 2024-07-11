@@ -1,5 +1,5 @@
 
-import { Produto } from "./produto";
+import { Produto } from "./Produto";
 
 export class ProdutoEletronico extends Produto {
 
@@ -10,7 +10,7 @@ export class ProdutoEletronico extends Produto {
     nome: string,
     preco: number,
     quantidade: number,
-    garantia: number ) {
+    garantia: number) {
     super(id, nome, preco, quantidade);
     this._garantia = garantia;
   }
